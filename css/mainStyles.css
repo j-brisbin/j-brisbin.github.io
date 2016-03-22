@@ -1,0 +1,18 @@
+body{
+    text-align: center;
+}
+
+#logo{
+    width: 30%;
+    height: 30%;
+}
+
+#name{
+    font-weight: 200;
+    font-size: 5em;
+}
+
+.carousel-item .responsive-img{
+    width: 30%;
+    height: 30%;
+}
