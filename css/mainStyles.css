@@ -2,7 +2,7 @@ body{
     text-align: center;
 }
 
-li{
+.staggered-list li{
     opacity: 0;
 }
 
