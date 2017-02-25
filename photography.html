@@ -5,10 +5,13 @@
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
     <script src="bower_components/jquery/dist/jquery.min.js" type="text/javascript"></script>
     <script src="bower_components/Materialize/dist/js/materialize.min.js" type="text/javascript"></script>
+    <script src="bower_components/slick-carousel/slick/slick.min.js"></script>
     <script src="js/mainScripts.js" type="text/javascript"></script>
-    <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <link rel="stylesheet" href="bower_components/Materialize/dist/css/materialize.min.css" type="text/css">
-    <link rel="stylesheet" href="css/mainStyles.css" type="text/css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="bower_components/Materialize/dist/css/materialize.min.css" type="text/css"/>
+    <link rel="stylesheet" href="bower_components/slick-carousel/slick/slick.css" type="text/css"/>
+    <link rel="stylesheet" href="bower_components/slick-carousel/slick/slick-theme.css" type="text/css"/>
+    <link rel="stylesheet" href="css/mainStyles.css" type="text/css"/>
     <title>Joel Brisbin - Photography</title>
 </head>
 <body>
@@ -37,34 +40,34 @@
     </header>
 
     <section id="content">
-        <div class="carousel carousel-slider">
-            <a class="carousel-item" href="#">
+        <div class="photo-carousel">
+            <div>
                 <img src="assets/images/photo_examples/IMG_4681.JPG" />
-            </a>
-            <a class="carousel-item" href="#">
+            </div>
+            <div>
                 <img src="assets/images/photo_examples/IMG_4730.JPG" />
-            </a>
-            <a class="carousel-item" href="#">
+            </div>
+            <div>
                 <img src="assets/images/photo_examples/IMG_4773.JPG" />
-            </a>
-            <a class="carousel-item" href="#">
+            </div>
+            <div>
                 <img src="assets/images/photo_examples/IMG_4787.JPG" />
-            </a>
-            <a class="carousel-item" href="#">
+            </div>
+            <div>
                 <img src="assets/images/photo_examples/IMG_6535.JPG" />
-            </a>
-            <a class="carousel-item" href="#">
+            </div>
+            <div>
                 <img src="assets/images/photo_examples/IMG_6573.JPG" />
-            </a>
-            <a class="carousel-item" href="#">
+            </div>
+            <div>
                 <img src="assets/images/photo_examples/IMG_6594.JPG" />
-            </a>
-            <a class="carousel-item" href="#">
+            </div>
+            <div>
                 <img src="assets/images/photo_examples/IMG_6597.JPG" />
-            </a>
-            <a class="carousel-item" href="#">
+            </div>
+            <div>
                 <img src="assets/images/photo_examples/IMG_6612.JPG" />
-            </a>
+            </div>
         </div>
         <div class="col s12 m6 l3">
             <h4>Want to See More?</h4>
@@ -74,13 +77,12 @@
     </section>
 
     <footer>
-        <p>&copy;2016 Joel Brisbin</p>
-        <footer>
-            <div class="container">
-                <p>&copy;2016 Joel Brisbin</p>
-                <p>E-mail: <a href="mailto:j_brisbin@outlook.com">j_brisbin@outlook.com</a></p>
-            </div>
-        </footer>
+        <div class="container">
+            <p>&copy; <script type="text/javascript">
+               document.write(new Date().getFullYear());
+            </script> Joel Brisbin</p>
+            <p>E-mail: <a href="mailto:j_brisbin@outlook.com">j_brisbin@outlook.com</a></p>
+        </div>
     </footer>
 </section>
 </body>
