@@ -1,0 +1,22 @@
+{
+  "short_name": "JoelBrisbinSite",
+  "name": "Joel Brisbin Site Hosted on GitHub",
+  "icons":[
+    {
+      "src": ,
+      "type": "image/png",
+      "sizes": "48x48"
+    },
+    {
+      "src": ,
+      "type": "image/png",
+      "sizes": "96x96"
+    },
+    {
+      "src": ,
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+  ],
+  "start_url": "j-brisbin.github.io?launcher=true"
+}
