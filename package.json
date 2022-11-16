@@ -19,11 +19,11 @@
   "devDependencies": {
     "gulp": "^3.9.1",
     "gulp-concat": "^2.6.1",
-    "gulp-handlebars": "^4.0.0",
+    "gulp-handlebars": "^5.0.2",
     "gulp-sass": "^3.1.0",
     "gulp-sourcemaps": "^2.6.0",
     "gulp-uglify": "^3.0.0",
-    "handlebars": "^4.0.10"
+    "handlebars": "^4.7.7"
   },
   "dependencies": {
     "jquery": "^3.2.1",
